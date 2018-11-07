@@ -8,7 +8,8 @@ class Anagram
   end
 
   def match(array_of_words)
-    array_of_words.each do |word|
+    
+    return array_of_words.each do |word|
       return word if word.chars.sort.join == @anagram.chars.sort.join
     end
   end
