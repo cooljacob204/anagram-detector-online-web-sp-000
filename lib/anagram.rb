@@ -1,8 +1,10 @@
 # Your code goes here!
 
 class Anagram
-  attr_accessor 
+  attr_accessor :array_of_words
   
-  initialize()
+  def initialize(array_of_words)
+    
+  end
 
 end
